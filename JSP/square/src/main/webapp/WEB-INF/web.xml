@@ -1,0 +1,29 @@
+<web-app>
+    <servlet>
+        <servlet-name>SquareServlet</servlet-name>
+        <servlet-class>mosipov.servlets.SquareServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SquareServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ColorListServlet</servlet-name>
+        <servlet-class>mosipov.servlets.ColorListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ColorListServlet</servlet-name>
+        <url-pattern>/listing</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>mosipov.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+</web-app>

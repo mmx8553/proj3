@@ -1,0 +1,7 @@
+CREATE TABLE `aaa` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(250) DEFAULT NULL,
+  `color` varchar(45) DEFAULT NULL,
+  `insert_dt` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+
